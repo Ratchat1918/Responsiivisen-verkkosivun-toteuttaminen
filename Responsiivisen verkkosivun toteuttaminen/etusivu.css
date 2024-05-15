@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --teksti:#333333;
+    ---tausta:#eeee;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font: 'Lato', sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+}
+main{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    
+}
+section{
+    max-width: 900px;
+    width: 60%;
+    margin: 20px auto;
+}
+.showcase{
+    font-size: 1.7em;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+}
